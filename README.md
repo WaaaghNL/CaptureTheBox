@@ -17,7 +17,7 @@ Fill in your database credentials here.
 
 **ctb_service.service**
 Copy this to /etc/systemd/system using the command
-```sudo cp ctb_service.service /etc/systemd/system/ctb_service.service``
+```sudo cp ctb_service.service /etc/systemd/system/ctb_service.service```
 then enable it using
 ```sudo systemctl enable ctb_service.service```
 The service will now run whenever the Pi is booted up. Use _disable_ to disable this.
